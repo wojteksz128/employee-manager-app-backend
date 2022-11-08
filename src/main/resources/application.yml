@@ -1,0 +1,14 @@
+spring:
+  # MySQL Configuration
+  datasource:
+    url: jdbc:mysql://localhost:3306/employeemanager
+    username: root    # for test purposes only
+    password: example
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
