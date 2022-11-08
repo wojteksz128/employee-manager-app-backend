@@ -1,4 +1,4 @@
-package com.example.demo;
+package net.wojteksz128.employeemanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
